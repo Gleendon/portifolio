@@ -1,13 +1,23 @@
 .skills__cards{
+    align-items: center;
     background-color: #EAF2FD;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
-    text-align: center;
-    
-    width: 175px;
-    height: 175px;
+    text-align: center;    
+}
+
+@media screen and (min-width: 0px) {
+    .skills__cards{
+        width: 145px;
+        height: 150px;
+        margin: 0.25rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .skills__cards{
+        width: 230px;
+        height: 175px;
+    }
 }

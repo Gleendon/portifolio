@@ -7,7 +7,20 @@
     align-items: center;
     
     text-align: center;
-    
-    width: 175px;
-    height: 175px;
+}
+
+
+@media screen and (min-width: 0px) {
+    .hobbies__cards{
+        width: 145px;
+        height: 150px;
+        margin: 0.25rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hobbies__cards{
+        width: 230px;
+        height: 175px;
+    }
 }

@@ -1,4 +1,12 @@
-.formacao__titulo{
-    font-size: 3rem;
-    margin-bottom: 1rem;
+@media screen and (min-width: 0px) {
+    .formacao__titulo{
+       font-size: 2rem;
+       margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .formacao__titulo{
+        font-size: 3rem;
+    }
 }

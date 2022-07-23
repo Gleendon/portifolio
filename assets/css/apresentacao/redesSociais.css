@@ -1,3 +1,15 @@
 .redes-sociais{
     display: flex;
 }
+
+@media screen and (min-width: 0px) {
+    .redes-sociais{
+        justify-content: space-between
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .redes-sociais{
+        justify-content: left
+    }
+}

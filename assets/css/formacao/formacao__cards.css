@@ -1,11 +1,25 @@
 .formacao__cards{
+    align-items: center;
     background: #EAF2FD;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-
-    width: 368px;
-    height: 286px;
+    padding: 1rem;
 }
+
+@media screen and (min-width: 0px) {
+    .formacao__cards{   
+        height: 175px;
+        margin: 0.5rem;
+        width: 368px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .formacao__cards{   
+        height: 286px;
+        margin: 1rem;
+        width: 368px;
+    }
+}
+

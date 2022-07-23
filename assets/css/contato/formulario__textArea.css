@@ -1,6 +1,5 @@
 .formulario__textArea{
    resize: none;
-   width: 656px;
    height: 133px;
    border: none;
 }
@@ -9,4 +8,23 @@
    box-shadow: 0 0 0 0;
    outline: 0;
    border-bottom: 1px solid #2A7AE4;
+}
+
+@media screen and (min-width: 0px) {
+   .formulario__textArea{
+      width: 295px;
+      height: 133px;
+   }
+}
+
+@media screen and (min-width: 768px) {
+   .formulario__textArea{
+      width: 700px;
+   }
+}
+
+@media screen and (min-width: 1024px) {
+   .formulario__textArea{
+      width: 656px;;
+   }
 }

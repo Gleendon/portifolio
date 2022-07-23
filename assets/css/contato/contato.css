@@ -1,7 +1,7 @@
 .contato{
-   display: flex;
    align-items: center;
+   display: flex;
    justify-content: center;
-   margin-top: 3rem 0;
-   padding: 3rem 2rem;
+   margin-top: 3rem;
+   padding: 1rem;
 }

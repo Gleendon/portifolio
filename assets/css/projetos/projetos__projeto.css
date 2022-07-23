@@ -1,6 +1,22 @@
 .projetos__projeto{
    display: flex;
    align-items: center;
-   margin-left: 150px;
-   margin-top: 2.5rem;
+}
+
+@media screen and (min-width: 0px) {
+   .projetos__projeto{
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-left: 0px;
+   }
+}
+
+@media screen and (min-width: 1024px) {
+   .projetos__projeto{
+      margin-left: 150px;
+      margin-top: 2.5rem;
+   }
+   .projetos__projeto:nth-child(2n){
+      flex-direction: row-reverse;
+   }
 }

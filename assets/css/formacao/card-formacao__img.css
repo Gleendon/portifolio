@@ -1,4 +1,13 @@
-.card-formacao__img{
-    width: 250px;
-    height: 150px;
+@media screen and (min-width: 0px) {
+    .card-formacao__img{
+        width: 150px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card-formacao__img{
+        width: 250px;
+        height: 150px;
+    }
 }

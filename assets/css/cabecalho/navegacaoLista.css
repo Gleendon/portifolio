@@ -1,3 +1,11 @@
-.navegacao__lista{
-    display: flex;
+@media screen and (min-width: 0px) {
+    .navegacao__lista{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .navegacao__lista{
+        display: flex;
+    }
 }

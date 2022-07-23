@@ -1,3 +1,13 @@
-.card__titulo{
-    margin-top: 1rem;
+@media screen and (min-width: 0px) {
+    .card__titulo{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card__titulo{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
 }

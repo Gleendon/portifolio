@@ -3,3 +3,10 @@
     align-items: center;
     justify-content: space-around;
 }
+
+@media screen and (min-width: 0px) {
+    .formacao__container{
+        flex-wrap: wrap;
+    }
+}
+
