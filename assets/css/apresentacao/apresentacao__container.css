@@ -1,0 +1,10 @@
+.apresentacao__container{
+    background-color: #EAF2FD;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 100vw;
+}

@@ -1,0 +1,6 @@
+.projetos__projeto{
+   display: flex;
+   align-items: center;
+   margin-left: 150px;
+   margin-top: 2.5rem;
+}

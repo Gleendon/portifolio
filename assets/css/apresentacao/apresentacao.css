@@ -1,0 +1,12 @@
+.apresentacao{
+    background-image: url(../../img/backgorund2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: calc(100vh - 50px);
+}

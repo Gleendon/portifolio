@@ -1,0 +1,10 @@
+.navegacao__link{
+    color: #dbdbdb;
+    font-weight: bold;
+    margin-right: 1.25rem;
+    text-decoration: none;
+}
+
+.navegacao__link:hover{
+    color: #9c9c9c;
+}

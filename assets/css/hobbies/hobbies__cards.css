@@ -1,0 +1,13 @@
+.hobbies__cards{
+    background-color: #EAF2FD;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+    
+    width: 175px;
+    height: 175px;
+}

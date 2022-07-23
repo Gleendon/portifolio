@@ -1,0 +1,11 @@
+.formacao__cards{
+    background: #EAF2FD;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 368px;
+    height: 286px;
+}
